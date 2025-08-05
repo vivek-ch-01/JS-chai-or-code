@@ -25,4 +25,8 @@ console.log(bool)
 //true -- 1
 //false -- 0
 
+let str1 = "vivek"
+let str2 = " choudhary"
+let str3 = str1+str2
+console.log(str3)
 
