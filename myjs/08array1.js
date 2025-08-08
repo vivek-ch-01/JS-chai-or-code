@@ -25,7 +25,7 @@ console.log(fruits);       // ['apple', 'banana', 'cherry', 'date'] original arr
 
 
 let fruit2 = ['apple', 'banana', 'cherry', 'date'];
-let removed = fruit2.splice(1, 2);  // remove 2 items from index 1
+let removed = fruit2.splice(1, 2);  // // here 1 means start from index1 and 2 means total 2 items is to be taken.start from slicing index1 and total 2 slice we have to take, so here at index1 banana is taken and remaining one more taken which is cherry just after banana.
 console.log(removed);      // ['banana', 'cherry']
 console.log(fruit2);       // ['apple', 'date']  Splice means (modifies the original array)
 
